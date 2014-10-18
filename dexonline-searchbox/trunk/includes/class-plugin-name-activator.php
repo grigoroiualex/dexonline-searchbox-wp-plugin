@@ -6,8 +6,8 @@
  * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    Dexonline_Searchbox
+ * @subpackage Dexonline_Searchbox/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's activation.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    Dexonline_Searchbox
+ * @subpackage Dexonline_Searchbox/includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Activator {
+class Dexonline_Searchbox_Activator {
 
 	/**
 	 * Short Description. (use period)
