@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes
- * @author     Your Name <email@example.com>
+ * @author     Alexandru Marian Grigoroiu <grigoroiu.alexandru@gmail.com>
  */
 class Dexonline_Searchbox {
 
@@ -75,6 +75,7 @@ class Dexonline_Searchbox {
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
+		$this->define_widget();
 
 	}
 
@@ -118,6 +119,11 @@ class Dexonline_Searchbox {
 		 * side of the site.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-dexonline-searchbox-public.php';
+
+		/**
+		 * The class responsible for the widget
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-dexonline-searchbox-widget.php';
 
 		$this->loader = new Dexonline_Searchbox_Loader();
 
@@ -211,6 +217,18 @@ class Dexonline_Searchbox {
 	 */
 	public function get_version() {
 		return $this->version;
+	}
+
+
+	/**
+	 * Register the plugin as a widget
+	 *
+	 * @since 1.0.0
+	 */
+	public function define_widget() {
+		$plugin_widget = new Dexonline_Searchbox_Widget();
+
+		$this->loader->add_action( 'widgets_init', $plugin_widget, 'register_dexonline_searchbox_widget' );
 	}
 
 }
