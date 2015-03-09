@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Provide a public-facing view for the plugin
+ * Provide a dashboard view for the plugin
  *
  * This file is used to markup the public-facing aspects of the plugin.
  *
- * @link       http://example.com
+ * @link       http://dexonline.ro/unelte
  * @since      1.0.0
  *
  * @package    Dexonline_Searchbox
- * @subpackage Dexonline_Searchbox/public/partials
+ * @subpackage Dexonline_Searchbox/admin/partials
  */
 ?>
 

@@ -11,7 +11,7 @@
  * @link              http://dexonline.ro/unelte
  * @since             1.0.0
  * @package           Dexonline_Searchbox
- * @author            Alexandru Marian Grigoroiu <grigoroiu.alexandru@gmail.com>
+ * @author            Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
  * @license           GPL-2.0+
  *
  * @wordpress-plugin

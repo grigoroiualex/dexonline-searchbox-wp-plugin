@@ -3,7 +3,7 @@
 /**
  * The dashboard-specific functionality of the plugin.
  *
- * @link       http://example.com
+ * @link       http://dexonline.ro/unelte
  * @since      1.0.0
  *
  * @package    Dexonline_Searchbox
@@ -18,7 +18,7 @@
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/admin
- * @author     Your Name <email@example.com>
+ * @author     Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
  */
 class Dexonline_Searchbox_Admin {
 

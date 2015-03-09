@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://example.com
+ * @link       http://dexonline.ro/unelte
  * @since      1.0.0
  *
  * @package    Dexonline_Searchbox
@@ -19,7 +19,7 @@
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes
- * @author     Your Name <email@example.com>
+ * @author     Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
  */
 class Dexonline_Searchbox_Loader {
 
