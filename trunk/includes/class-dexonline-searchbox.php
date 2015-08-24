@@ -4,7 +4,7 @@
  * The file that defines the core plugin class
  *
  * A class definition that includes attributes and functions used across both the
- * public-facing side of the site and the dashboard.
+ * public-facing side of the site and the admin area.
  *
  * @link       http://dexonline.ro/unelte
  * @since      1.0.0
@@ -16,7 +16,7 @@
 /**
  * The core plugin class.
  *
- * This is used to define internationalization, dashboard-specific hooks, and
+ * This is used to define internationalization, admin-specific hooks, and
  * public-facing site hooks.
  *
  * Also maintains the unique identifier of this plugin as well as the current
@@ -61,7 +61,7 @@ class Dexonline_Searchbox {
 	 * Define the core functionality of the plugin.
 	 *
 	 * Set the plugin name and the plugin version that can be used throughout the plugin.
-	 * Load the dependencies, define the locale, and set the hooks for the Dashboard and
+	 * Load the dependencies, define the locale, and set the hooks for the admin area and
 	 * the public-facing side of the site.
 	 *
 	 * @since    1.0.0
@@ -86,7 +86,7 @@ class Dexonline_Searchbox {
 	 *
 	 * - Dexonline_Searchbox_Loader. Orchestrates the hooks of the plugin.
 	 * - Dexonline_Searchbox_i18n. Defines internationalization functionality.
-	 * - Dexonline_Searchbox_Admin. Defines all hooks for the dashboard.
+	 * - Dexonline_Searchbox_Admin. Defines all hooks for the admin area.
 	 * - Dexonline_Searchbox_Public. Defines all hooks for the public side of the site.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks
@@ -110,7 +110,7 @@ class Dexonline_Searchbox {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-dexonline-searchbox-i18n.php';
 
 		/**
-		 * The class responsible for defining all actions that occur in the Dashboard.
+		 * The class responsible for defining all actions that occur in the admin area.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-dexonline-searchbox-admin.php';
 
@@ -148,7 +148,7 @@ class Dexonline_Searchbox {
 	}
 
 	/**
-	 * Register all of the hooks related to the dashboard functionality
+	 * Register all of the hooks related to the admin area functionality
 	 * of the plugin.
 	 *
 	 * @since    1.0.0
