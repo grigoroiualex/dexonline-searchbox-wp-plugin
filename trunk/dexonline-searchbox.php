@@ -4,7 +4,7 @@
  * The plugin bootstrap file
  *
  * This file is read by WordPress to generate the plugin information in the plugin
- * Dashboard. This file also includes all of the dependencies used by the plugin,
+ * admin area. This file also includes all of the dependencies used by the plugin,
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
@@ -12,7 +12,6 @@
  * @since             1.0.0
  * @package           Dexonline_Searchbox
  * @author            Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
- * @license           GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:       Dexonline Searchbox
@@ -35,23 +34,28 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * The code that runs during plugin activation.
+ * This action is documented in includes/class-dexonline-searchbox-activator.php
  */
-require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox-activator.php';
+function activate_plugin_name() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox-activator.php';
+	Plugin_Name_Activator::activate();
+}
 
 /**
  * The code that runs during plugin deactivation.
+ * This action is documented in includes/class-dexonline-searchbox-deactivator.php
  */
-require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox-deactivator.php';
+function deactivate_plugin_name() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox-deactivator.php';
+	Plugin_Name_Deactivator::deactivate();
+}
 
-/** This action is documented in includes/class-dexonline-searchbox-activator.php */
-register_activation_hook( __FILE__, array( 'Dexonline_Searchbox_Activator', 'activate' ) );
-
-/** This action is documented in includes/class-dexonline-searchbox-deactivator.php */
-register_deactivation_hook( __FILE__, array( 'Dexonline_Searchbox_Deactivator', 'deactivate' ) );
+register_activation_hook( __FILE__, 'activate_dexonline_searchbox' );
+register_deactivation_hook( __FILE__, 'deactivate_dexonline_searchbox' );
 
 /**
  * The core plugin class that is used to define internationalization,
- * dashboard-specific hooks, and public-facing site hooks.
+ * admin-specific hooks, and public-facing site hooks.
  */
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox.php';
 
@@ -64,10 +68,10 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox.p
  *
  * @since    1.0.0
  */
-function run_plugin_name() {
+function run_dexonline_searchbox() {
 
 	$plugin = new Dexonline_Searchbox();
 	$plugin->run();
 
 }
-run_plugin_name();
+run_dexonline_searchbox();
