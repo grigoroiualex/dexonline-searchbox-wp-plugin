@@ -14,7 +14,7 @@
  * The public-facing functionality of the plugin.
  *
  * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the dashboard-specific stylesheet and JavaScript.
+ * enqueue the admin-specific stylesheet and JavaScript.
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/public
@@ -44,8 +44,8 @@ class Dexonline_Searchbox_Public {
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    1.0.0
-	 * @var      string    $plugin_name       The name of the plugin.
-	 * @var      string    $version    The version of this plugin.
+	 * @param      string    $plugin_name       The name of the plugin.
+	 * @param      string    $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
 
