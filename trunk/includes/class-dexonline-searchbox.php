@@ -219,7 +219,6 @@ class Dexonline_Searchbox {
 		return $this->version;
 	}
 
-
 	/**
 	 * Register the plugin as a widget
 	 *

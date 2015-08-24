@@ -35,32 +35,27 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
     /**
      * Outputs the content of the widget
      *
-     * @param array $args
-     * @param array $instance
+     * @param array $args	Widget arguments.
+     * @param array $instance	Saved values from database.
      */
     public function widget( $args, $instance ) {
+        $instance['title'] = 'Dexonline Searchbox';
+
         // outputs the content of the widget
-
-        $title = apply_filters( 'widget_title', 'Dexonline Searchbox' );
-        $name = $instance['name'];
-        $show_info = isset( $instance['show_info'] ) ? $instance['show_info'] : false;
-
         echo $args['before_widget'];
-
-        // Display the widget title
-        if ( $title ) {
-            echo $args['before_title'] . $title . $args['after_title'];
+        if ( ! empty( $instance['title'] ) ) {
+            echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title'];
         }
 
-        //Display the name
-        if ( $name )
-            printf( '<p>' . __('Hey their Sailor! My name is %1$s.', 'example') . '</p>', $name );
-         
-        if ( $show_info )
-            printf( $name );
-         
-        echo $args['after_widget'];
+        ?>
+        <div id="ds-form-wrapper">
+            <input id="ds-searchbox" type="text" name="ds-searchbox" placeholder="<?php echo __( 'Search word', 'text_domain' ); ?>">
+            <button id="ds-search-button" type="button">Submit</button>
+        </div>
+        <div id="ds-results"></div>
+        <?php
 
+        echo $args['after_widget'];
     }
 
     /**
@@ -81,7 +76,7 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
     public function update( $new_instance, $old_instance ) {
         // processes widget options to be saved
     }
-    
+
     // register Dexonline Searchbox Widget
     public function register_dexonline_searchbox_widget() {
         register_widget( 'Dexonline_Searchbox_Widget' );

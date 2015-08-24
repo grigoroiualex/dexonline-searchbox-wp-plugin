@@ -36,18 +36,18 @@ if ( ! defined( 'WPINC' ) ) {
  * The code that runs during plugin activation.
  * This action is documented in includes/class-dexonline-searchbox-activator.php
  */
-function activate_plugin_name() {
+function activate_dexonline_searchbox() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox-activator.php';
-	Plugin_Name_Activator::activate();
+	Dexonline_Searchbox_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
  * This action is documented in includes/class-dexonline-searchbox-deactivator.php
  */
-function deactivate_plugin_name() {
+function deactivate_dexonline_searchbox() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox-deactivator.php';
-	Plugin_Name_Deactivator::deactivate();
+	Dexonline_Searchbox_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_dexonline_searchbox' );
