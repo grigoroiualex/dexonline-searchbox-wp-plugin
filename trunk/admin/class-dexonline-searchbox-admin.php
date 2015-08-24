@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The dashboard-specific functionality of the plugin.
+ * The admin-specific functionality of the plugin.
  *
  * @link       http://dexonline.ro/unelte
  * @since      1.0.0
@@ -11,10 +11,10 @@
  */
 
 /**
- * The dashboard-specific functionality of the plugin.
+ * The admin-specific functionality of the plugin.
  *
  * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the dashboard-specific stylesheet and JavaScript.
+ * enqueue the admin-specific stylesheet and JavaScript.
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/admin
@@ -44,8 +44,8 @@ class Dexonline_Searchbox_Admin {
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    1.0.0
-	 * @var      string    $plugin_name       The name of this plugin.
-	 * @var      string    $version    The version of this plugin.
+	 * @param      string    $plugin_name       The name of this plugin.
+	 * @param      string    $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
 
@@ -55,7 +55,7 @@ class Dexonline_Searchbox_Admin {
 	}
 
 	/**
-	 * Register the stylesheets for the Dashboard.
+	 * Register the stylesheets for the admin area.
 	 *
 	 * @since    1.0.0
 	 */
@@ -78,7 +78,7 @@ class Dexonline_Searchbox_Admin {
 	}
 
 	/**
-	 * Register the JavaScript for the dashboard.
+	 * Register the JavaScript for the admin area.
 	 *
 	 * @since    1.0.0
 	 */
