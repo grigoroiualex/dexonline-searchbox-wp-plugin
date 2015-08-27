@@ -2,8 +2,3 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
-
-#ds-results {
-    max-height: 200px;
-    overflow-x: scroll;
-}

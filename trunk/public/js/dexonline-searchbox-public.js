@@ -29,11 +29,4 @@
 	 * be doing this, we should try to minimize doing that in our own work.
 	 */
 
-	$( window ).load(function() {
-		$("#ds-search-button").on("click", function() {
-			var q = $("#ds-searchbox").val();
-			$("#ds-results").append("<p>" + q + "</p>");
-		});
-	});
-
 })( jQuery );
