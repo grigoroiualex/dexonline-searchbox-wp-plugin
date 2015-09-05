@@ -23,9 +23,7 @@
 class Dexonline_Searchbox_Activator {
 
 	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
+	 * The code that runs at activation time.
 	 *
 	 * @since    1.0.0
 	 */

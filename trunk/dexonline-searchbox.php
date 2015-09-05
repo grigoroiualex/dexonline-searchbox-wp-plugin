@@ -16,7 +16,7 @@
  * @wordpress-plugin
  * Plugin Name:       Dexonline Searchbox
  * Plugin URI:        http://dexonline.ro/unelte
- * Description:       Adds a searchbox to help easily search romanian words definitions. 
+ * Description:       Adds a searchbox to help easily search romanian words definitions.
  * Version:           1.0.0
  * Author:            Alexandru Marian Grigoroiu
  * Author URI:        http://grigoroiualex.ro/
@@ -74,4 +74,5 @@ function run_dexonline_searchbox() {
 	$plugin->run();
 
 }
+
 run_dexonline_searchbox();

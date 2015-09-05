@@ -23,9 +23,7 @@
 class Dexonline_Searchbox_Deactivator {
 
 	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
+	 * The code that runs at deactivation time.
 	 *
 	 * @since    1.0.0
 	 */

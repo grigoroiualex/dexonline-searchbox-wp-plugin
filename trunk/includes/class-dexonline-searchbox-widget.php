@@ -70,13 +70,17 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
      *
      * @param array $new_instance The new options
      * @param array $old_instance The previous options
+     *
+     * @return array Current instance
      */
     public function update( $new_instance, $old_instance ) {
         // processes widget options to be saved
 	return $instance;
     }
 
-    // register Dexonline Searchbox Widget
+    /**
+     * Registers the widget to WordPress
+     */
     public function register_dexonline_searchbox_widget() {
         register_widget( 'Dexonline_Searchbox_Widget' );
     }
