@@ -23,19 +23,16 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `dexonline-searchbox.php` to the `/wp-content/plugins/` directory
+1. Create a folder called `dexonline-searchbox` in `/wp-content/plugins/` directory
+1. Upload the contents of the `trunk` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Enjoy!
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= How does it work? =
 
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+Input the Romanian word that you would like to look up and then press Enter. You will be sent to [dexonline](https://dexonline.ro "DEX Online") where you can see its definition and related images, if available.
 
 == Screenshots ==
 
@@ -48,30 +45,5 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Changelog ==
 
 = 1.0 =
-* A change since the previous version.
-* Another change.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+* Basic search by sending the user to dexonline website.
+* Input validation.
