@@ -7,7 +7,7 @@
  * public-facing side of the site and the admin area.
  *
  * @link       http://dexonline.ro/unelte
- * @since      1.0.0
+ * @since      1.0
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes
@@ -22,7 +22,7 @@
  * Also maintains the unique identifier of this plugin as well as the current
  * version of the plugin.
  *
- * @since      1.0.0
+ * @since      1.0
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes
  * @author     Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
@@ -33,7 +33,7 @@ class Dexonline_Searchbox {
 	 * The loader that's responsible for maintaining and registering all hooks that power
 	 * the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   protected
 	 * @var      Dexonline_Searchbox_Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
@@ -42,7 +42,7 @@ class Dexonline_Searchbox {
 	/**
 	 * The unique identifier of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   protected
 	 * @var      string    $plugin_name    The string used to uniquely identify this plugin.
 	 */
@@ -51,7 +51,7 @@ class Dexonline_Searchbox {
 	/**
 	 * The current version of the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   protected
 	 * @var      string    $version    The current version of the plugin.
 	 */
@@ -64,12 +64,12 @@ class Dexonline_Searchbox {
 	 * Load the dependencies, define the locale, and set the hooks for the admin area and
 	 * the public-facing side of the site.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 */
 	public function __construct() {
 
 		$this->plugin_name = 'dexonline-searchbox';
-		$this->version = '1.0.0';
+		$this->version = '1.0';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -92,7 +92,7 @@ class Dexonline_Searchbox {
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   private
 	 */
 	private function load_dependencies() {
@@ -135,7 +135,7 @@ class Dexonline_Searchbox {
 	 * Uses the Dexonline_Searchbox_i18n class in order to set the domain and to register the hook
 	 * with WordPress.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   private
 	 */
 	private function set_locale() {
@@ -151,7 +151,7 @@ class Dexonline_Searchbox {
 	 * Register all of the hooks related to the admin area functionality
 	 * of the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   private
 	 */
 	private function define_admin_hooks() {
@@ -167,7 +167,7 @@ class Dexonline_Searchbox {
 	 * Register all of the hooks related to the public-facing functionality
 	 * of the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 * @access   private
 	 */
 	private function define_public_hooks() {
@@ -182,7 +182,7 @@ class Dexonline_Searchbox {
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 */
 	public function run() {
 		$this->loader->run();
@@ -192,7 +192,7 @@ class Dexonline_Searchbox {
 	 * The name of the plugin used to uniquely identify it within the context of
 	 * WordPress and to define internationalization functionality.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0
 	 * @return    string    The name of the plugin.
 	 */
 	public function get_plugin_name() {
@@ -202,7 +202,7 @@ class Dexonline_Searchbox {
 	/**
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0
 	 * @return    Dexonline_Searchbox_Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
@@ -212,7 +212,7 @@ class Dexonline_Searchbox {
 	/**
 	 * Retrieve the version number of the plugin.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0
 	 * @return    string    The version number of the plugin.
 	 */
 	public function get_version() {
@@ -222,7 +222,7 @@ class Dexonline_Searchbox {
 	/**
 	 * Register the plugin as a widget
 	 *
-	 * @since 1.0.0
+	 * @since 1.0
 	 */
 	public function define_widget() {
 		$plugin_widget = new Dexonline_Searchbox_Widget();

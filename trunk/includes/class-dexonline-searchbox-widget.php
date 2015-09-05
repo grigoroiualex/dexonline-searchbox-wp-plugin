@@ -4,7 +4,7 @@
  * Register all actions and filters for the plugin
  *
  * @link       http://dexonline.ro/unelte
- * @since      1.0.0
+ * @since      1.0
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes

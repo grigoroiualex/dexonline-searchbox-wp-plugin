@@ -9,7 +9,7 @@
  * that starts the plugin.
  *
  * @link              http://dexonline.ro/unelte
- * @since             1.0.0
+ * @since             1.0
  * @package           Dexonline_Searchbox
  * @author            Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
  *
@@ -17,7 +17,7 @@
  * Plugin Name:       Dexonline Searchbox
  * Plugin URI:        http://dexonline.ro/unelte
  * Description:       Adds a searchbox to help easily search romanian words definitions.
- * Version:           1.0.0
+ * Version:           1.0
  * Author:            Alexandru Marian Grigoroiu
  * Author URI:        http://grigoroiualex.ro/
  * License:           GPL-2.0+
@@ -66,7 +66,7 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/class-dexonline-searchbox.p
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ * @since    1.0
  */
 function run_dexonline_searchbox() {
 

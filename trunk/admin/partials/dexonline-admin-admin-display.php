@@ -6,7 +6,7 @@
  * This file is used to markup the public-facing aspects of the plugin.
  *
  * @link       http://dexonline.ro/unelte
- * @since      1.0.0
+ * @since      1.0
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/admin/partials

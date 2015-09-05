@@ -4,7 +4,7 @@
  * Fired during plugin deactivation
  *
  * @link       http://dexonline.ro/unelte
- * @since      1.0.0
+ * @since      1.0
  *
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes
@@ -15,7 +15,7 @@
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      1.0.0
+ * @since      1.0
  * @package    Dexonline_Searchbox
  * @subpackage Dexonline_Searchbox/includes
  * @author     Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
@@ -25,7 +25,7 @@ class Dexonline_Searchbox_Deactivator {
 	/**
 	 * The code that runs at deactivation time.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0
 	 */
 	public static function deactivate() {
 
