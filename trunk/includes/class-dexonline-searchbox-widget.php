@@ -28,7 +28,7 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
     public function __construct() {
         parent::__construct(
             'dexonline_searchbox_widget', // Base ID
-            __('Dexonline Searchbox', 'text_domain') // Name
+            __('Dexonline Searchbox', 'dexonline-searchbox') // Name
         );
     }
 
@@ -49,7 +49,7 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
 
         ?>
         <form id="ds-searchbox-wrapper" action="https://dexonline.ro/search.php" method="GET" target="_blank">
-            <input id="ds-searchbox" type="text" name="cuv" placeholder="<?php echo __( 'Search word', 'text_domain' ); ?>">
+            <input id="ds-searchbox" type="text" name="cuv" placeholder="<?php echo __( 'Search word', 'dexonline-searchbox' ); ?>">
         </form>
         <?php
 
