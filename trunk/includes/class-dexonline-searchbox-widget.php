@@ -73,6 +73,7 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
      */
     public function update( $new_instance, $old_instance ) {
         // processes widget options to be saved
+	return $instance;
     }
 
     // register Dexonline Searchbox Widget
