@@ -3,7 +3,7 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://dexonline.ro/unelte
+ * @link       https://dexonline.ro/unelte
  * @since      1.0
  *
  * @package    Dexonline_Searchbox

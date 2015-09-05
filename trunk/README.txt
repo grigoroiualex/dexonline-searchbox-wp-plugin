@@ -1,6 +1,6 @@
 === Dexonline Searchbox ===
 Contributors: grigoroiualex
-Donate link: http://dexonline.ro/doneaza
+Donate link: https://dexonline.ro/doneaza
 Tags: searchbox, dex, romanian, dictionary, dexonline, words, definitions
 Requires at least: 3.0.1
 Tested up to: 4.3

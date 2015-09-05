@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://dexonline.ro/unelte
+ * @link       https://dexonline.ro/unelte
  * @since      1.0
  *
  * @package    Dexonline_Searchbox

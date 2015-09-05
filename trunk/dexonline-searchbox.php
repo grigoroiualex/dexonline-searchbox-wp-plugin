@@ -8,14 +8,14 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://dexonline.ro/unelte
+ * @link              https://dexonline.ro/unelte
  * @since             1.0
  * @package           Dexonline_Searchbox
  * @author            Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>
  *
  * @wordpress-plugin
  * Plugin Name:       Dexonline Searchbox
- * Plugin URI:        http://dexonline.ro/unelte
+ * Plugin URI:        https://dexonline.ro/unelte
  * Description:       Adds a searchbox to help easily search romanian words definitions.
  * Version:           1.0
  * Author:            Alexandru Marian Grigoroiu
