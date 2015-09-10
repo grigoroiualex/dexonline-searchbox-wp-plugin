@@ -48,9 +48,14 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
         }
 
         ?>
-        <form id="ds-searchbox-wrapper" action="https://dexonline.ro/search.php" method="GET" target="_blank">
+        <form id="ds-searchbox-form" action="https://dexonline.ro/search.php" method="GET" target="_blank">
             <input id="ds-searchbox" type="text" name="cuv" placeholder="<?php echo __( 'Search word', 'dexonline-searchbox' ); ?>">
         </form>
+        <div id="ds-error-message-wrapper">
+            <span id="ds-error-message">
+                <?php echo __('Not a valid word', 'dexonline-searchbox'); ?>
+            </span>
+        </div>
         <?php
 
         echo $args['after_widget'];
