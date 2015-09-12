@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dexonline Searchbox\n"
-"POT-Creation-Date: 2015-09-12 11:49+0200\n"
-"PO-Revision-Date: 2015-09-12 11:49+0200\n"
+"POT-Creation-Date: 2015-09-12 11:48+0200\n"
+"PO-Revision-Date: 2015-09-12 11:48+0200\n"
 "Last-Translator: Alexandru Marian Grigoroiu <grigoroiualexandru@gmail.com>\n"
 "Language-Team: \n"
+"Language: Romanian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,17 +13,19 @@ msgstr ""
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: includes/class-dexonline-searchbox-widget.php:31
 #: includes/class-dexonline-searchbox-widget.php:42
 msgid "Dexonline Searchbox"
-msgstr ""
+msgstr "Căutare în Dexonline"
 
 #: includes/class-dexonline-searchbox-widget.php:52
 msgid "Search word"
-msgstr ""
+msgstr "Caută un cuvânt"
 
 #: includes/class-dexonline-searchbox-widget.php:56
 msgid "Not a valid word"
-msgstr ""
+msgstr "Cuvântul nu este valid"

@@ -39,7 +39,7 @@ class Dexonline_Searchbox_Widget extends WP_Widget {
      * @param array $instance	Saved values from database.
      */
     public function widget( $args, $instance ) {
-        $instance['title'] = 'Dexonline Searchbox';
+        $instance['title'] = __('Dexonline Searchbox', 'dexonline-searchbox');
 
         // outputs the content of the widget
         echo $args['before_widget'];
