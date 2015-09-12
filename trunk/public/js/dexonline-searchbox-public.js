@@ -12,7 +12,7 @@
 			}
 		});
 
-		$("#ds-searchbox").focus(function() {
+		$("#ds-searchbox").change(function() {
 			$("#ds-error-message-wrapper").css("visibility", "hidden");
 		});
 	});
