@@ -12,16 +12,19 @@ Dexonline Searchbox is a WordPress plugin that adds a searchbox on the sidebar t
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Dexonline Searchbox is a WordPress plugin that adds a searchbox on the sidebar to easily look up Romanian words definitions on dexonline.ro.
+If you think that there are any improvements, you can find us on githib where you can contribute:
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+https://github.com/grigoroiualex/dexonline-searchbox-wp-plugin
+
+Supported languages:
+
+* Romanian
+* English
+* French
+* German
 
 == Installation ==
-
-This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Create a folder called `dexonline-searchbox` in `/wp-content/plugins/` directory
 1. Upload the contents of the `trunk` folder to the `/wp-content/plugins/` directory
@@ -36,11 +39,8 @@ Input the Romanian word that you would like to look up and then press Enter. You
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Dexonline Searchbox on the sidebar of a plain Wordpress install.
+1. Dexonline Searchbox, sidebar only.
 
 == Changelog ==
 
