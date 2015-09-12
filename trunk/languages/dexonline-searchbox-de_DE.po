@@ -1,3 +1,5 @@
+# Translation of the Dexonline Searchbox 1.0 WordPress plugin.
+# This file is distributed under the same license as the the Dexonline Searchbox package.
 msgid ""
 msgstr ""
 "Project-Id-Version: Dexonline Searchbox\n"
