@@ -1,7 +1,7 @@
 === Dexonline Searchbox ===
 Contributors: grigoroiualex
 Donate link: https://dexonline.ro/doneaza
-Tags: searchbox, dex, romanian, dictionary, dexonline, words, definitions
+Tags: searchbox, dex, romanian, dictionary, dexonline, words, definitions, widget, plugin, dicționar, definiție, definiții, căutare, cuvânt
 Requires at least: 3.0.1
 Tested up to: 4.3
 Stable tag: trunk
